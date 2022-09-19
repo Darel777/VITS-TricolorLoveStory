@@ -57,4 +57,27 @@ python train_ms.py -c configs/vctk_base.json -m vctk_base
 ## Inference Example
 See [inference.ipynb](inference.ipynb)
 
-See how changes work
+## DESCRIPTIONS(0KR)
+
+1.in configs/ format.json we will see train,data,and model.
+
+​	log_interval: format means console.log(stat) in format  train units
+
+​	eval_interval: format means store pth files in format train units
+
+​	seed: random seed
+
+​	epoch: train times
+
+​	text_cleaners: Chinese cleaner2 contains stops while Chinese cleaner1 doesn't
+
+​	n_speakers: in multiple speakers mode, you should fill in a certain number (not zero)
+
+2.text folder can be DIYed by yourself.
+
+3.when using google co lab, make sure your wav files are rightly suited.
+
+4.torch and torch vision versions should be right, or you will meet inline exceptions.
+
+Take it and enjoy your TRICOLOR travel!
+
